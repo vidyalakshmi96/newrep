@@ -14,7 +14,7 @@ node('master')
     }
     stage('ConTesting')
     {
-        git 'https://github.com/intelliqittrainings/FunctionalTesting.git'
+        git 'https://github.om/intelliqittrainings/FunctionalTesting.git'
         
         sh label: '', script: 'java -jar /var/lib/jenkins/workspace/ScriptedPipeline/testing.jar'
     }
